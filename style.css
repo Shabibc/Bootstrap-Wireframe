@@ -1,87 +1,67 @@
-root {
-            primary-color: #4e73df;
-            secondary-color: #2e59a9;
-            accent-color: #f8f9fc;
-        }
-        
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f8f9fa;
-            line-height: 1.6;
-            color: #333;
-        }
-        
-        .navbar {
-            background-color: var(--primary-color) !important;
-            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.15);
-        }
-        
-        .navbar-brand, .nav-link {
-            color: white !important;
-        }
-        
-        .nav-link:hover {
-            color: var(--accent-color) !important;
-        }
-        
-        h1, h2, h3, h4 {
-            color: var(--secondary-color);
-            font-weight: 600;
-        }
-        
-        .container {
-            max-width: 960px;
-        }
-        
-        .hero-section {
-            background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
-            color: white;
-            padding: 3rem 0;
-            border-radius: 0.35rem;
-            margin-bottom: 2rem;
-        }
-        
-        .section-box {
-            background: white;
-            border-radius: 0.35rem;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 0.15rem 1.75rem 0 rgba(58, 59, 69, 0.1);
-            transition: transform 0.3s ease;
-        }
-        
-        .section-box:hover {
-            transform: translateY(-5px);
-        }
-        
-        .btn-primary {
-            background-color: var(--primary-color);
-            border-color: var(--primary-color);
-        }
-        
-        .btn-primary:hover {
-            background-color: var(--secondary-color);
-            border-color: var(--secondary-color);
-        }
-        
-        .contact-info {
-            background-color: var(--accent-color);
-            border-left: 0.25rem solid var(--primary-color);
-        }
-        
-        footer {
-            background-color: var(--secondary-color);
-            color: white;
-            padding: 1.5rem 0;
-            margin-top: 3rem;
-        }
-        
-        @media (max-width: 768px) {
-            .hero-section {
-                padding: 2rem 0;
-            }
-            
-            .section-box {
-                padding: 1.5rem;
-            }
-        }
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fffde7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.navbar {
+  background-color: #ffe066;
+  padding: 1rem;
+  border-bottom: 2px solid #f2d024;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 1rem;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #d17b00;
+}
+
+.container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.section {
+  margin-bottom: 2rem;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background-color: #ffd54f;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+  border: none;
+}
+
+.btn:hover {
+  background-color: #fbc02d;
+}
+
+.contact-info {
+  background-color: #fff9c4;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
